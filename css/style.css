@@ -139,7 +139,6 @@ h4 {
         height: 90vh;
         width: 90vw;
         flex-direction: column;
-    
     }
 
     .image {
@@ -149,13 +148,8 @@ h4 {
         background-size: cover;
     }
 
-
     .img-desktop {
         display: none;
-    }
-
-    .img-mobile {
-        display: ;
     }
 
     .text {
@@ -165,50 +159,5 @@ h4 {
         flex-direction: column;
         justify-content: left;
         padding: 20px;
-
-    }
-
-    h2 {
-        font-size: .8rem;
-    }
-
-    h1 {
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    .price {
-        display: flex;
-        margin-bottom: 20px;
-        gap: 20px;
-        align-items: center;
-    }
-
-    h3 {
-        font-family: 'Fraunces', serif;    
-        color: var(--dark-cyan);
-        font-size: 30px;
-    }
-
-    h4 {
-        color: var(--dark-grayish-blue);
-        font-weight: 500;
-        text-decoration: line-through;
-        font-size: 13px;
-    }
-
-    .btn {
-        background-color: var(--dark-cyan);
-        color: var(--white);
-        border-style: none;
-        font-weight: 700;
-        padding: 20px 70px;
-        border-radius: 10px;
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        justify-content: center;
     }
 }
